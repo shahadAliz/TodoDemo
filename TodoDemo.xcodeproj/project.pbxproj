@@ -12,6 +12,8 @@
 		EFD8640F2CACF6A300FABAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD8640E2CACF6A300FABAF2 /* Assets.xcassets */; };
 		EFD864122CACF6A300FABAF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD864112CACF6A300FABAF2 /* Preview Assets.xcassets */; };
 		EFD8641B2CAD03E900FABAF2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD8641A2CAD03E900FABAF2 /* Launch Screen.storyboard */; };
+		EFD8641F2CB3879900FABAF2 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8641E2CB3879900FABAF2 /* TaskRowView.swift */; };
+		EFD864212CB388A400FABAF2 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD864202CB388A400FABAF2 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		EFD8640E2CACF6A300FABAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD864112CACF6A300FABAF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFD8641A2CAD03E900FABAF2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EFD8641E2CB3879900FABAF2 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		EFD864202CB388A400FABAF2 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				EFD8640A2CACF6A200FABAF2 /* TodoDemoApp.swift */,
 				EFD8640C2CACF6A200FABAF2 /* ContentView.swift */,
+				EFD864202CB388A400FABAF2 /* AddTaskView.swift */,
+				EFD8641E2CB3879900FABAF2 /* TaskRowView.swift */,
 				EFD8641A2CAD03E900FABAF2 /* Launch Screen.storyboard */,
 				EFD8640E2CACF6A300FABAF2 /* Assets.xcassets */,
 				EFD864102CACF6A300FABAF2 /* Preview Content */,
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD8640D2CACF6A200FABAF2 /* ContentView.swift in Sources */,
+				EFD8641F2CB3879900FABAF2 /* TaskRowView.swift in Sources */,
 				EFD8640B2CACF6A200FABAF2 /* TodoDemoApp.swift in Sources */,
+				EFD864212CB388A400FABAF2 /* AddTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
