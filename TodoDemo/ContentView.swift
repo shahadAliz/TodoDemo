@@ -11,9 +11,13 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) var context
     
-    @State private var isShowingTaskSheet = false
+    @State private var isShowingAddTaskSheet = false
+    @State private var isShowingEditTaskSheet = false
     
     @Query (sort:\Task.titel) private var tasks: [Task]
+    
+    @State private var taskToEdit: Task?
+    
     var body: some View {
         NavigationStack {
             List {
@@ -25,6 +29,8 @@ struct ContentView: View {
                         TapGesture (count: 2).onEnded {
 
                         // edit data
+                            taskToEdit = task
+                            isShowingEditTaskSheet = true
 
                         }.exclusively(before: TapGesture(count: 1).onEnded {
 
@@ -38,21 +44,27 @@ struct ContentView: View {
            
             .navigationTitle("Tasks")
                 .navigationBarTitleDisplayMode(.large)
-                .sheet(isPresented: $isShowingTaskSheet) {
+                .sheet(isPresented: $isShowingAddTaskSheet) {
                     AddTaskView()
                 }
+                .sheet(item: $taskToEdit) { task in
+                    if !tasks.isEmpty {
+                       EditTaskView( task: task)
+                    }
+                }
+                
                 .toolbar {
                     ToolbarItemGroup (placement: .topBarTrailing){
                         Button("",systemImage: "plus"){
                             // show add viwe
-                            isShowingTaskSheet = true
+                            isShowingAddTaskSheet = true
                         }
                     }
                 }
         }
     }
 }
-
-#Preview {
-    ContentView()
+ #Preview {
+   ContentView()
 }
+

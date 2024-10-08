@@ -39,7 +39,7 @@ struct AddTaskView: View {
             }
             .padding()
            
-            .navigationTitle("Tasks")
+            .navigationTitle("Add Tasks")
                 .navigationBarTitleDisplayMode(.large)
                 
         }.padding()

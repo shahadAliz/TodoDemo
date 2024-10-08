@@ -15,6 +15,7 @@
 		EFD8641F2CB3879900FABAF2 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8641E2CB3879900FABAF2 /* TaskRowView.swift */; };
 		EFD864212CB388A400FABAF2 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD864202CB388A400FABAF2 /* AddTaskView.swift */; };
 		EFD864252CB38FD800FABAF2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD864242CB38FD800FABAF2 /* Task.swift */; };
+		EFD8642B2CB5432900FABAF2 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8642A2CB5432900FABAF2 /* EditTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EFD8641E2CB3879900FABAF2 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
 		EFD864202CB388A400FABAF2 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		EFD864242CB38FD800FABAF2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EFD8642A2CB5432900FABAF2 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				EFD864242CB38FD800FABAF2 /* Task.swift */,
 				EFD864202CB388A400FABAF2 /* AddTaskView.swift */,
 				EFD8641E2CB3879900FABAF2 /* TaskRowView.swift */,
+				EFD8642A2CB5432900FABAF2 /* EditTaskView.swift */,
 				EFD8641A2CAD03E900FABAF2 /* Launch Screen.storyboard */,
 				EFD8640E2CACF6A300FABAF2 /* Assets.xcassets */,
 				EFD864102CACF6A300FABAF2 /* Preview Content */,
@@ -153,6 +156,7 @@
 				EFD8640D2CACF6A200FABAF2 /* ContentView.swift in Sources */,
 				EFD8641F2CB3879900FABAF2 /* TaskRowView.swift in Sources */,
 				EFD864252CB38FD800FABAF2 /* Task.swift in Sources */,
+				EFD8642B2CB5432900FABAF2 /* EditTaskView.swift in Sources */,
 				EFD8640B2CACF6A200FABAF2 /* TodoDemoApp.swift in Sources */,
 				EFD864212CB388A400FABAF2 /* AddTaskView.swift in Sources */,
 			);
