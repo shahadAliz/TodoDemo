@@ -28,13 +28,24 @@ struct AddTaskView: View {
                         dismiss()
                         
                     }
+                    .controlSize(.large)
+                    .buttonStyle(.borderedProminent)
                     .padding()
+                    .frame(maxWidth: .infinity)
+                   
                     
                     Button("Cancel"){
                        // dismiss sheet
                         dismiss()
-                    }.padding()
+                    }
+                    .controlSize(.large)
+                    .buttonStyle(.borderedProminent)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                   
                 }
+                .fixedSize(horizontal: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                .padding()
                 Spacer()
             }
             .padding()
