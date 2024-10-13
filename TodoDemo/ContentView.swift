@@ -38,6 +38,13 @@ struct ContentView: View {
                             task.completed.toggle()
                         }))
                 }
+                .onDelete{ indexSet in
+                    
+                    //to delete task
+                    for index in indexSet{
+                        context.delete(tasks[index])
+                    }
+                }
                 
             } .listStyle(.plain)
             
